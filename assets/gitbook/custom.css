@@ -299,3 +299,8 @@
 .pull-left + .pull-right {
     margin-left: auto;
 }
+
+.absolute-100{
+    position: absolute;
+    width: 100%;
+}
