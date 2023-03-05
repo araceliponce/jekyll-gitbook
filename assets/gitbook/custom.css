@@ -284,11 +284,18 @@
 
 
 /* custom css */
-.book.with-summary .book-body .book-header {
+.book>.book-body>.book-header {
     display: flex;
-    width:auto;
+    width: 100%;
 }
 
 .pull-left+.pull-left {
     margin-right: auto;
+}
+
+.pull-right{
+    float: unset;
+}
+.pull-left + .pull-right {
+    margin-left: auto;
 }
