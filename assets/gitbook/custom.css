@@ -1,4 +1,7 @@
---- --- .book-body {
+--- 
+---
+
+.book-body {
     overflow-y: scroll;
 }
 
@@ -281,8 +284,7 @@
 
 
 /* custom css */
-.book-body 
-.book-header {
+.book.with-summary .book-body .book-header {
     display: flex;
     width:auto;
 }
